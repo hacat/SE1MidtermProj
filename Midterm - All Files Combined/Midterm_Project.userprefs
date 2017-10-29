@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{D88230FD-2248-498D-A455-A53B81AA1DF6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Midterm_Project/Adapter_Test.cs">
+    <Files>
+      <File FileName="Midterm_Project/Program.cs" Line="25" Column="42" />
+      <File FileName="Midterm_Project/Adapter_Test.cs" Line="37" Column="70" />
+      <File FileName="Midterm_Project/Adapter.cs" Line="67" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Midterm_Project" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Midterm__Project PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
