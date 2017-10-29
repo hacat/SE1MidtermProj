@@ -1,0 +1,5 @@
+/Users/sandyhuynh/Projects/Midterm_Project/Midterm_Project/obj/x86/Debug/Midterm_Project.csproj.CoreCompileInputs.cache
+/Users/sandyhuynh/Projects/Midterm_Project/Midterm_Project/bin/Debug/Midterm_Project.exe
+/Users/sandyhuynh/Projects/Midterm_Project/Midterm_Project/bin/Debug/Midterm_Project.pdb
+/Users/sandyhuynh/Projects/Midterm_Project/Midterm_Project/obj/x86/Debug/Midterm_Project.exe
+/Users/sandyhuynh/Projects/Midterm_Project/Midterm_Project/obj/x86/Debug/Midterm_Project.pdb

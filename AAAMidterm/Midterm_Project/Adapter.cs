@@ -1,59 +1,73 @@
 ﻿using System;
 /**
-*  Modified and translated Java code from "Adapter in Java" 
+*  Modified and translated Java code from "Adapter in Java"
 *  from Java to C#.
-* 
+*
 *  https://sourcemaking.com/design_patterns/adapter/java/2
 */
-//TODO: Test cases, Traceability, time spent on every task
 namespace Midterm
 {
     /* THE OLD */
+    //1.0: SquarePeg Class
     class SquarePeg{
+
+        //1.1: Width Variable
         private double width;
 
+        //1.2: SquarePeg Constructor
         public SquarePeg(double width){
             this.width = width;
         }
 
+        //1.3: GetWidth Method
         public double getWidth(){
             return width;
         }
 
+        //1.4: SetWidth Method
         public void setWidth(double width){
-            this.width = width;   
+            this.width = width;
         }
     }
 
     /* THE NEW */
+    //2.0: Round Hole Class
     class RoundHole{
+
+        //2.1: Radius Variable
         private readonly int radius;
 
+        //2.2: RoundHole Constructor
         public RoundHole(int radius){
             this.radius = radius;
             Console.WriteLine("RoundHole: max SquarePeg is " + radius * Math.Sqrt(2));
         }
 
+        //2.3: GetRadius Method
         public int getRadius(){
             return radius;
         }
     }
 
     // Design a "wrapper" class that can "impedance match" the old to the new
+    //3.0: SquarePegAdapter Class
     class SquarePegAdapter
     {
         // The adapter/wrapper class "has a" instance of the legacy class
+        //3.1: SquarePeg Variable
         private readonly SquarePeg squarePeg;
 
+    //3.2: SquarePegAdapter Constructor
     public SquarePegAdapter(double w)
         {
             squarePeg = new SquarePeg(w);
         }
 
         // Identify the desired interface
+        //3.3: MakeFit Method
         public void makeFit(RoundHole roundHole)
         {
-            
+
             // The adapter/wrapper class delegates to the legacy object
             double amount = squarePeg.getWidth() - roundHole.getRadius() * Math.Sqrt(2);
             Console.WriteLine("reducing SquarePeg " + squarePeg.getWidth() + " by " + ((amount < 0) ? 0 : amount) + " amount");
@@ -65,9 +79,12 @@ namespace Midterm
         }
     }
 
+    //4.0: AdapterDemoSquarePeg Class
     class AdapterDemoSquarePeg
     {
-        public static void Main(string[] args)
+
+        //4.1: Main Method
+        public static void Maine(string[] args)
         {
             RoundHole roundHole = new RoundHole(5);
             SquarePegAdapter squarePegAdapter;
@@ -80,31 +97,3 @@ namespace Midterm
         }
     }
 }
-/** 
-Traceability
-
-Hi,
-
-Let me start with this text from 
-https://en.wikipedia.org/wiki/Traceability#Systems_and_software_development.
-========
-Systems and software development
-In systems and software development; 
-the term traceability (or Requirements Traceability) refers to the ability to 
-link product requirements back to stakeholders' rationales and forward to 
-corresponding design artifacts, code, and test cases. Traceability supports 
-numerous software engineering activities such as change impact analysis,
-compliance verification or traceback of code, regression test selection, 
-and requirements validation. It is usually accomplished in the form of a matrix 
-created for the verification and validation of the project. Unfortunately the 
-practice of constructing and maintaining a requirements trace matrix (RTM) can 
-be very arduous and over time the traces tend to erode into an inaccurate state
-unless date/time stamped. Alternate automated approaches for generating traces 
-using information retrieval methods have been developed.
-
-In transaction processing software, traceability implies use of a unique piece 
-of data (e.g., order date/time or a serialized sequence number) which can be 
-traced through the entire software flow of all relevant application programs. 
-Messages and files at any point in the system can then be audited for 
-correctness and completeness, using the traceability key to find the particular
-transaction */

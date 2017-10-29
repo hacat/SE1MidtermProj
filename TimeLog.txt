@@ -1,0 +1,8 @@
+TASK					MEMBERS		TIME (Per Person)
+Visitor Pattern & Unit Tests		3,4		1.5 Hours
+Abstract Factory Pattern & Unit Tests	5,6		1.25 Hours
+Adapter Pattern & Unit Tests		1,2		1.5 Hours
+Compiling Parts				3,4,5,6		0.4 Hours
+Troubleshooting				1,2,5		1 Hour
+
+Total: 13.1 Man-Hours

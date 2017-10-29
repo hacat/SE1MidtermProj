@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{95A62DA2-D946-4E17-AE6B-CE2028BFC115}</ProjectGuid>
+    <ProjectGuid>{D88230FD-2248-498D-A455-A53B81AA1DF6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Midterm</RootNamespace>
-    <AssemblyName>Midterm</AssemblyName>
+    <RootNamespace>Midterm_Project</RootNamespace>
+    <AssemblyName>Midterm_Project</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,6 +34,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="midterm_visitor.cs" />
+    <Compile Include="AdaptorFactoryPattern.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
