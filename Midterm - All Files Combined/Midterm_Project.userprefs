@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{D88230FD-2248-498D-A455-A53B81AA1DF6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Midterm_Project/Midterm_Project.cs">
+    <Files>
+      <File FileName="Midterm_Project/Midterm_Project.cs" Line="11" Column="13" />
+      <File FileName="Midterm_Project/C# Patterns/Adapter.cs" Line="1" Column="1" />
+      <File FileName="Midterm_Project/UnitTests/AbstractFactory_Test.cs" Line="1" Column="1" />
+      <File FileName="Midterm_Project/C# Patterns/AbstractFactory.cs" Line="1" Column="1" />
+      <File FileName="Midterm_Project/UnitTests/Visitor_Test.cs" Line="31" Column="39" />
+      <File FileName="Midterm_Project/UnitTests/Adapter_Test.cs" Line="38" Column="32" />
+      <File FileName="Midterm_Project/Java Files/AbstractFactory.java" Line="27" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Midterm__Project PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
