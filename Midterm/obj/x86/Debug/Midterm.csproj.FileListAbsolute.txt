@@ -1,0 +1,5 @@
+/Users/sobafall2017/Projects/Midterm/Midterm/bin/Debug/Midterm.exe
+/Users/sobafall2017/Projects/Midterm/Midterm/bin/Debug/Midterm.pdb
+/Users/sobafall2017/Projects/Midterm/Midterm/obj/x86/Debug/Midterm.csproj.CoreCompileInputs.cache
+/Users/sobafall2017/Projects/Midterm/Midterm/obj/x86/Debug/Midterm.exe
+/Users/sobafall2017/Projects/Midterm/Midterm/obj/x86/Debug/Midterm.pdb
