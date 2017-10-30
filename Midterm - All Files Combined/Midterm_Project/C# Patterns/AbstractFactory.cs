@@ -1,6 +1,6 @@
 using System;
 /**
- * AdaptorFactory C# Code
+ * AbstractFactory C# Code
  * Midterm Project 1
  * Coverted Java Code from source: https://sourcemaking.com/design_patterns/abstract_factory/java/2
  * All lines in C# matches up with lines in Java code
