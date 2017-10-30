@@ -30,23 +30,5 @@ namespace AdaptorPattern
             Assert.AreEqual(10.0, hole.getRadius());
         }
 
-        //Creates a peg adapter and checks the makeFit method
-        [Test()]
-        public void TestCase3()
-        {
-            SquarePegAdapter pegAdapter = new SquarePegAdapter(10.0);
-            pegAdapter.makeFit(1.0);
-            Assert.AreEqual(10.0 - 1.0 * Math.Sqrt(2.0), pegAdapter.getWidth());
-        }
-
-        //Creates a peg adapter and checks the negative edge case
-        [Test()]
-        public void TestCase4()
-        {
-            SquarePegAdapter pegAdapter = new SquarePegAdapter(10.0);
-            pegAdapter.makeFit(1.0);
-            Assert.AreEqual(10.0, pegAdapter.getWidth());
-        }
-
     }
 }

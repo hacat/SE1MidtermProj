@@ -23,3 +23,7 @@
 /Users/sandyhuynh/Downloads/SE1MidtermProj-master copy/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.csproj.CoreCompileInputs.cache
 /Users/sandyhuynh/Downloads/SE1MidtermProj-master copy/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.exe
 /Users/sandyhuynh/Downloads/SE1MidtermProj-master copy/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.pdb
+/Users/sobafall2017/Projects/Midterm/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.csprojResolveAssemblyReference.cache
+/Users/sobafall2017/Projects/Midterm/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.csproj.CoreCompileInputs.cache
+/Users/sobafall2017/Projects/Midterm/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.exe
+/Users/sobafall2017/Projects/Midterm/Midterm - All Files Combined/Midterm_Project/obj/x86/Debug/Midterm_Project.pdb

@@ -15,14 +15,14 @@ namespace Midterm_Project
             VisitorDemo visitor = new VisitorDemo();
             visitor.Maine(args);
 
-            //Adaptor Factory Pattern implemented
+            //Abstract Factory Pattern implemented
             //This is with 1 argument so it will create a PCFactory
             //Members 5 and 6
-            Console.WriteLine("\r\nAdaptor Factory Pattern Results:\r\n");
+            Console.WriteLine("\r\nAbstract Factory Pattern Results:\r\n");
             FactoryFmProto factory = new FactoryFmProto();
             factory.Maine(arguments);
 
-            //Adatper Pattern implemented
+            //Adapter Pattern implemented
             //Members 1 and 2
             Console.WriteLine("\r\nAdaptor Pattern Results:\r\n");
             AdapterDemoSquarePeg adapter = new AdapterDemoSquarePeg();
